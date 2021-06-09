@@ -1,0 +1,133 @@
+<!--Diseñe un sitio web que contenga 6 secciones con información de calidad , 
+el sitio web debe tener imágenes, marquesina, menú responsivo, encabezado con 
+su respectiva imagen, titulo y logo, pie de pagina.
+
+NO esta permitido el uso de frameworks o bootstrap.
+
+El sitio web debe de estar hostiado en github y enviar el enlace en un archivo 
+txt para poder revisar dicho proyecto.-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width = divice-widrh, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <link rel="icon" href="img/icopage.png">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Historico Mobile legend</title>
+    </head>
+    <body bgcolor="grey">
+        <header>
+            <div class="imagenPagina">
+                <img src="img/imgHeader.jpg" alt="Imagen de bienvenida">
+            </div>
+            <!--Barra de navegacion-->
+            <nav>
+                <ul>
+                    <li><a href="https://www.mobilelegends.com/en"> Página Oficial</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=es_VE&gl=US">Descargas</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCqmld-BIYME2i_ooRTo1EOg">Youtube</a></li>
+                </ul>
+            </nav>
+            <marquee behavior="scroll" scrolldelay=" 40" truespeed direction="left"><h1 id="titulo">Información sobre el juego Mobile legend</h1></marquee>
+        </header>
+
+        <!--Seccion #1-->
+        <div id="infGeneral">
+            <br/>
+            <h3>Historia y estrategia</h3><br/>
+            <p>Mobile Legends: Bang Bang es uno de aquellos juegos estilo MOBA  muy similar a títulos 
+                reconocidos como el League of Legends y el Heroes Of The Storm, es decir, un juego de 
+                ofensiva y defensiva. El objetivo principal del juego es llevar a tu ejército por 
+                los diferentes carriles, mientras se destruye cada torre que se cruce y que impida 
+                realizar el recorrido correspondiente hasta la base de nuestro interés. </p>
+        </div>
+
+        <!--Seccion #2-->
+        <div id="infAsesinos">
+            <h3>Asesinos</h3>
+            <p>La función principal de los asesinos es buscar el enemigo más fuerte y 
+                tenerlo como foco de ataques. Estos héroes poseen buena movilidad y 
+                habilidades letales, lo cual al momento de un ataque se les puede facilitar 
+                si sabemos usarlos. Son buenos en los ataques sorpresa cuando un enemigo se 
+                encuentre solo. Sus habilidades cuentan con altos tiempos de recarga.</p>
+            <img class="tamañoImagen" src="img/imgAsesino.jpg" alt="Imagen Natalia" title="Heroe Natalia">
+        </div>
+        
+        <!--Seccion #3-->
+        <div id="infTiradores">
+            <h3>Tiradores</h3>
+            <img class="tamañoImagen" src="img/imgTirador.jpg" alt="Imagen Mylla" title="Heroe Mylla">
+            <p>La función de los Tiradores se basa en saberse posicionar y atacar a distancia, 
+                esto es de gran ayuda al momento de atacar torres enemigas o cuando ataquen a un 
+                compañero. Depende del héroe sus habilidades le pueden ayudar a una fácil movilidad, 
+                por ende buen escape, o hacer daño explosivo. Se dice que para mejor rendimiento 
+                el tirador va en compañía del tanque.</p>
+        </div>
+
+        <!--Seccion #4-->
+        <div id="infCombatientes">
+            <h3>Combatientes</h3>
+            <p>EL papel de los Combatientes se puede tornar algo multifacético, puesto 
+                que son buenos para ser usados en la jungla y pueden adaptarse a las 
+                necesidades del equipo. Ágiles en el enfrentamiento 1vs1.</p>
+            <img class="tamañoImagen" src="img/imgCombatiente.jpg" alt="Imagen Argos" title="Heroe Argos">
+        </div>
+
+        <!--Seccion #5-->
+        <div id="infTanques">
+            <h3>Tanques</h3>
+            <p>El papel de los Tanques en las partidas es proteger a su equipo, ya que 
+                ellos son los Héroes que más daño aguantan, cuentan con habilidades y 
+                un soporte de vida con el que pueden llevar a cabo su rol. Cuentan con 
+                buen manejo de control de masas, por ende pueden ser hábiles al momento 
+                de despejar las líneas.</p>
+            <img class="tamañoImagen" src="img/imgTanque.jpg" alt="Imagen Tigreal" title="Heroe Tigreal">
+        </div>
+
+        <!--Seccion #6-->
+        <div id="infMagos">
+            <h3>Magos</h3>
+            <img class="tamañoImagen" src="img/imgMago.jpg" alt="Imagen Eudora" title="Heroe Eudora">
+            <p>La función de los Magos se basa en el daño mágico, por ende deben comprar 
+                un buen equipamiento que potencie su poder mágico. Estos héroes atacan de 
+                lejos, por eso al momento del combate se recomienda que se coloquen detrás 
+                de héroes que lo puedan proteger para así poder cumplir su función. Se le 
+                recomienda un buen manejo de sus habilidades ya que gasta mucho maná.</p>
+        </div>
+
+        <!--Seccion #7-->
+        <div id="infApoyos">
+            <h3>Apoyos</h3>
+            <p>La función principal de los Apoyo es ser soporte y brindarle ayuda a los demás Héroes. 
+                Algunos de estos héroes ayudan en el Control de Masas.<br/>
+                Los Apoyo pueden brindar escudos, protección y curar a sus compañeros en el campo de batalla.</p>
+            <img class="tamañoImagen" src="img/imgApoyo.jpg" alt="Imagen Nana" title="Heroe Nana">
+        </div>
+
+        <!--Seccion #8-->
+        <div id="infJungla">
+            <h3>Jungla</h3>
+            <p>Usualmente, el rol de jungla es una buena mezcla entre ser soporte y ser asesino. 
+                Puedes hacer mucho daño por tu cuenta, así que potencialmente podrás obtener muchas 
+                rachas de eliminaciones, pero tu objetivo será ayudar a tu equipo a obtener 
+                eliminaciones para que éstos puedan ganar sus carriles.<br/>
+                Antes de empezar a jugar, asegúrate de elegir el hechizo de Retribución en la pantalla 
+                de selección de héroes. Este hechizo te ayudará a destruir los enemigos de la jungla. 
+                Sin éste, verás que es mucho más difícil de levelear en la jungla, y te quedarás atrás 
+                con respecto a los demás jugadores.<br/>
+                Luego, deberás elegir un buen héroe para la jungla. Tu elección acá es importante ya 
+                que podrías irte por un héroe móvil, o uno más tanque pero lento. Si te vas por los 
+                héroes más móviles, podrás hacer más daño y será mas fácil gankear, pero te morirás más 
+                rápido también. Los héroes más tanques son robustos y tendrán más oportunidades para iniciar 
+                team fights, pero gankear será más difícil ya que no te podrás acercar rápidamente al enemigo. 
+                Lo bueno es que tendrás más salud y defensas con estos últimos.</p>
+            <img class="tamañoImagen" src="img/imgJungla.jpg" alt="Imagen Jungla" title="Tortuga Jungla">
+        </div>
+
+        <div id=piePagina>
+            <h6>Copyright 2021. TODOS LOS DERECHOS RESERVADOS :D <BR/> Zulia-Venezuela</h6>
+        </div>
+    </body>
+</html>

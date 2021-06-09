@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgba(5, 5, 5, 0.938);
+    background: url(../img/imgFondo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+
+
+/*header-----------------------------------------------------*/
+header div  img{
+    width: 1000px;
+    max-height: 200px;
+}
+
+header{
+    
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+/*parte de barra de navegacion------------------*/
+header nav{
+    background: rgb(114, 0, 124);
+    overflow: hidden;
+}
+
+header nav ul{
+
+    list-style: none;
+}
+
+header nav ul li{
+    
+    float: left;
+}
+
+header nav ul li a{
+    padding: 20px 115px 20px 115px;
+    margin-left: 25px;
+    display: block;
+    color: rgba(255, 252, 85, 0.938);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: rgb(151, 0, 165);
+    box-shadow: 5px 0px 0px rgb(170, 0, 185);
+}
+
+header marquee{
+    color: rgba(231, 231, 231, 0.658);
+}
+/*parte del cuerpo--------estructura-------------------------------*/
+.tamañoImagen{
+    width: 35%;
+    height: 200px;
+}
+header h1{
+    text-align: left;
+    font-size: 50px;
+}
+
+
+
+/*propiedades de las secciones--------------*/
+#infGeneral{
+    max-width: 1000px;
+    width: 940px;
+    padding: 20px;
+    background: rgb(189, 115, 115);
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-left: 11%;
+    
+}
+
+#infAsesinos, #infTiradores, #infCombatientes, #infTanques,
+#infMagos, #infApoyos{
+    width: 980px;
+    height: 260px;
+    margin-bottom: 10px;
+    margin-left: 11%;
+    list-style: none;
+    float: left;
+}
+
+#infJungla{
+    width: 980px;
+    height: 340px;
+    margin-bottom: 10px;
+    margin-left: 11%;
+    list-style: none;
+    float: left;
+}
+
+
+/*Colores de las secciones-------------*/
+#infAsesinos{
+    background: rgb(151, 0, 165);
+}
+
+#infTiradores{
+    background: rgba(255, 238, 3, 0.781);
+}
+
+#infCombatientes{
+    background: rgba(248, 0, 0, 0.705);
+}
+
+#infTanques{
+    background: rgba(255, 145, 1, 0.726);
+}
+
+#infMagos{
+    background: rgba(1, 18, 255, 0.671);
+}
+
+#infApoyos{
+    background: rgba(0, 163, 163, 0.74);
+}
+
+#infJungla{
+    background: rgb(122, 0, 92);
+}
+
+
+/*titulos de las secciones----------------------------*/
+#infGeneral h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infTiradores h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 86%;
+    top: 20px;
+}
+
+#infMagos h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 89.4%;
+    top: 20px;
+}
+
+#infAsesinos h3, #infCombatientes h3, #infTanques h3,
+#infApoyos h3, #infJungla h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+/*Parrafos de las secciones-----------------*/
+#infGeneral p{
+    position: relative;
+    left: 0px;
+    top: -10px;
+    width: 900px;
+}
+
+#infTiradores p{
+    
+    float: right;
+    position: relative;
+    bottom: 100px;
+    left: -23px;
+}
+
+#infMagos p{
+    float: right;
+    position: relative;
+    left: -23px;
+}
+
+p{
+    text-align: justify;
+    width: 60%;
+    position: relative;
+    left: 2%;
+    top: 30px;
+}
+
+
+
+/*Propiedades y posicion de imagenes------------*/
+#infAsesinos img, #infCombatientes img, #infTanques img,
+#infApoyos img, #infJungla img{
+    position: relative;
+    left: 63%;
+    bottom: 90px;
+}
+
+#infTiradores img{
+    position: relative;
+    right: -16px;
+}
+
+ #infCombatientes img{
+     position: relative;
+     top: -50px;
+ }
+
+ #infTanques img{
+    position: relative;
+    top: -70px;
+    left: 620px;
+}
+
+#infMagos img{
+    position: relative;
+    left: 16px;
+}
+
+#infApoyos img{
+    position: relative;
+    top: -70px;
+}
+
+#infJungla img{
+    position: relative;
+    top: -215px;
+}
+
+#piePagina{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    margin-top: 2%;
+    list-style: none;
+    float: left;
+    background: rgb(128, 128, 128);
+}
+
+#piePagina h6{
+    text-align: center;
+    margin-top: 3%;
+}
